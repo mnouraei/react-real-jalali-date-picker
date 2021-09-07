@@ -1,0 +1,11 @@
+.DayPicker-Day,
+.DayPicker-Weekday {
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	background-color: #c8c8c8;
+	width: 14.28%;
+	box-sizing: border-box;
+	float: right;
+	border: 2px solid #fff;
+}

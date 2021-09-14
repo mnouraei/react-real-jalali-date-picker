@@ -9,3 +9,53 @@
 	float: right;
 	border: 2px solid #fff;
 }
+
+.DayPicker-Day,
+.DayPicker-Weekday-Fri {
+	color: #ff0000;
+	line-height: 30px;
+	text-align: center;
+	background-color: #dac2c2;
+	width: 14.28%;
+	box-sizing: border-box;
+	float: right;
+	border: 2px solid #fff;
+}
+
+.DayPicker-Week .DayPicker-Day {
+	width: 14.28%;
+	float: right;
+	height: 32px;
+	cursor: pointer;
+	display: block;
+	padding: 6px 0 6px 0;
+	color: #6f7273;
+	font-size: 12px;
+	font-family: inherit;
+	line-height: 15px;
+	text-align: center;
+	background: #e5e7e6;
+	box-sizing: border-box;
+	border: 2px solid #fff;
+	outline: 0 !important;
+}
+.DayPicker-Week .DayPicker-Day-Fri {
+	color: #ff0000;
+	width: 14.28%;
+	float: right;
+	height: 32px;
+	cursor: pointer;
+	display: block;
+	padding: 6px 0 6px 0;
+	font-size: 12px;
+	font-family: inherit;
+	line-height: 15px;
+	text-align: center;
+	background: #fdacac;
+	box-sizing: border-box;
+	border: 2px solid #fff;
+	outline: 0 !important;
+}
+.DayPicker-Week .DayPicker-Day:hover {
+	background: #f3f3f3;
+}
